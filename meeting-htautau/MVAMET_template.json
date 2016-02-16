@@ -64,6 +64,5 @@
     ], 
     "y_errors": [
         false
-    ], 
-    "y_label": "$U_{\\parallel}/p_T^Z$"
+    ]
 }
