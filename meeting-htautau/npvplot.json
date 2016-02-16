@@ -11,6 +11,10 @@
     "x_label": "nPV",
     "weights": [
         "(select)&&nCombinations==1&&Boson_Pt>30", 
-        "z_pT>30"
+        "z_pT>30",
+        "(select)&&nCombinations==1&&Boson_Pt>30", 
+        "z_pT>30",
+        "(select)&&nCombinations==1&&Boson_Pt>30", 
+        "(select)&&nCombinations==1&&Boson_Pt>30"
     ]
 }
