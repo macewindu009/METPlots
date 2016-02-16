@@ -1,0 +1,103 @@
+{
+    "colors": [
+        "black", 
+        "black", 
+        "goldenrod", 
+        "goldenrod", 
+        "orange", 
+        "green"
+    ], 
+    "filename": "MVAMET_Response_NPV", 
+    "files": [
+        "DY.root", 
+        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/mvaTrainingSample.root", 
+        "DY.root", 
+        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/mvaTrainingSample.root", 
+        "LongZCorrectedRecoilHighpt.root", 
+        "DY.root"
+    ], 
+    "folders": [
+        "MAPAnalyzer/t", 
+        "Flat", 
+        "MAPAnalyzer/t", 
+        "Flat", 
+        "t", 
+        "MAPAnalyzer/t"
+    ], 
+    "friend_filenames": [
+        "LongZCorrectedRecoil.root", 
+        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/particleFlowUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/trackUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/noPileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpCorrectedUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/RecoilCor.root", 
+        "LongZCorrectedRecoil.root", 
+        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/particleFlowUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/trackUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/noPileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpCorrectedUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/RecoilCor.root", 
+        "", 
+        "LongZCorrectedRecoil.root"
+    ], 
+    "friend_treenames": [
+        "LongZCorrectedRecoil", 
+        "particleFlowUpdate trackUpdate noPileUpUpdate pileUpCorrectedUpdate pileUpUpdate RecoilCor", 
+        "LongZCorrectedRecoil", 
+        "particleFlowUpdate trackUpdate noPileUpUpdate pileUpCorrectedUpdate pileUpUpdate RecoilCor", 
+        "", 
+        "LongZCorrectedRecoil"
+    ], 
+    "labels": [
+        "PF", 
+        "PF old", 
+        "MVA", 
+        "MVA old", 
+        "MVA high-pt", 
+        "Puppi"
+    ], 
+    "legend_cols": 2, 
+    "line_styles": [
+        "-", 
+        "--", 
+        "-", 
+        "--", 
+        "-", 
+        "-"
+    ], 
+    "markers": [
+        "."
+    ], 
+    "tree_draw_options": [
+        "prof"
+    ], 
+    "weights": [
+        "(select)&&nCombinations==1&&Boson_Pt>30", 
+        "z_pT>30",
+        "(select)&&nCombinations==1&&Boson_Pt>30", 
+        "z_pT>30",
+        "(select)&&nCombinations==1&&Boson_Pt>30", 
+        "(select)&&nCombinations==1&&Boson_Pt>30"
+    ], 
+    "x_bins": [
+        "10,5,25"
+    ], 
+    "x_errors": [
+        false
+    ], 
+    "x_expressions": [
+        "NVertex", "nPV",
+        "NVertex", "nPV",
+        "NVertex", 
+        "NVertex"
+    ], 
+    "x_label": "nPV", 
+    "y_errors": [
+        false
+    ], 
+    "y_expressions": [
+        "recoilslimmedMETs_LongZ/-Boson_Pt", 
+        "particleFlowUpdate_Upar/-z_pT", 
+        "LongZCorrectedRecoil_LongZ/-Boson_Pt", 
+        "RecoilCor_Upar/-z_pT", 
+        "LongZCorrectedRecoil_LongZ/-Boson_Pt", 
+        "recoilslimmedMETsPuppi_LongZ/-Boson_Pt"
+    ], 
+    "y_label": "$U_{\\parallel}/p_T^Z$", 
+    "y_lims": [
+        0, 
+        2.0
+    ]
+}

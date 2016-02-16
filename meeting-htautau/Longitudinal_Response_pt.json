@@ -21,8 +21,7 @@
         "recoilpatpfNoPUMET_LongZ/-Boson_Pt",         "noPileUpUpdate_Upar/-z_pT",
         "recoilpatpfPUMET_LongZ/-Boson_Pt",           "pileUpUpdate_Upar/-z_pT",
         "recoilslimmedMETsPuppi_LongZ/-Boson_Pt",     "0",
-        "recoilpatpfPUCorrectedMET_LongZ/-Boson_Pt",  "pileUpCorrectedUpdate_Upar/-z_pT",
-        "LongZCorrectedRecoil_LongZ/-Boson_Pt",     "RecoilCor_Upar/-z_pT"
+        "recoilpatpfPUCorrectedMET_LongZ/-Boson_Pt",  "pileUpCorrectedUpdate_Upar/-z_pT"
     ], 
     "y_label": "$U_{\\parallel}/p_T^Z$", 
     "y_lims": [

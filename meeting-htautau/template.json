@@ -33,7 +33,7 @@
         "Track", "Track old",
         "NoPU", "NoPU old", 
         "PU", "PU old",
-        "PUPPI", "",
+        "PUPPI", 
         "PU Corr", "PU Corr old"
     ], 
     "nicks" : ["nick1", "nick2", "nick3", "nick4", "nick5", "nick6", "nick7", "nick8", "nick9", "nick10_noplot", "nick11", "nick12" ],
