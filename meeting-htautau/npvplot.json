@@ -1,0 +1,16 @@
+{
+    "x_bins": [
+        "10,5,25"
+    ], 
+    "x_expressions": [
+        "NVertex", "nPV",
+        "NVertex", "nPV",
+        "NVertex", 
+        "NVertex"
+    ], 
+    "x_label": "nPV",
+    "weights": [
+        "(select)&&nCombinations==1&&Boson_Pt>30", 
+        "z_pT>30"
+    ]
+}
