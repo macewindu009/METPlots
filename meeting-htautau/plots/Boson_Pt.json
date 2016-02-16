@@ -1,0 +1,71 @@
+{
+    "files": [
+        "DY.root", 
+        "DY200to400slimmed.root", 
+        "DY400to600slimmed.root", 
+        "DY600ToInfslimmed.root", 
+        "All.root"
+    ], 
+    "folders": [
+        "MAPAnalyzer/t", 
+        "t", 
+        "t", 
+        "t", 
+        "t"
+    ], 
+    "friend_filenames": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "flatPtWeight.root"
+    ], 
+    "friend_treenames": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "flatPtWeight"
+    ], 
+    "labels": [
+        "DY standard", 
+        "HT200To400", 
+        "HT400To600", 
+        "HT600ToInf", 
+        "weighted"
+    ], 
+    "line_styles": [
+        "-"
+    ], 
+    "markers": [
+        "", 
+        "", 
+        "", 
+        "", 
+        "bar"
+    ], 
+    "step": [
+        true
+    ], 
+    "weights": [
+        "1", 
+        "1", 
+        "1", 
+        "1", 
+        "flatPtWeight*select"
+    ], 
+    "x_bins": [
+        "80,0,800"
+    ], 
+    "x_errors": [
+        false
+    ], 
+    "x_expressions": [
+        "Boson_Pt"
+    ], 
+    "x_label": "$p_T^Z$", 
+    "y_errors": [
+        false
+    ], 
+    "y_log": true
+}
