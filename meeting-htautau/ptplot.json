@@ -10,5 +10,13 @@
         "Boson_Pt", 
         "Boson_Pt"
     ], 
-    "x_label": "$p_T^Z$"
+    "x_label": "$p_T^Z$",
+    "weights": [
+        "(select)&&nCombinations==1", 
+        "1", 
+        "(select)&&nCombinations==1", 
+        "1", 
+        "(select)&&nCombinations==1", 
+        "(select)&&nCombinations==1"
+    ] 
 }
