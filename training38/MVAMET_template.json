@@ -1,0 +1,39 @@
+{
+    "colors": [
+        "black", 
+        "black", 
+        "goldenrod", 
+        "goldenrod"
+    ], 
+    "files": [
+        "MVAnew.root", 
+        "MVAold.root",
+        "MVAnew.root", 
+        "MVAold.root"
+    ], 
+    "folders": [
+        "t"
+    ], 
+    "labels": [
+        "PF fix", 
+        "PF old", 
+        "MVA fix", 
+        "MVA old"
+    ], 
+    "legend_cols": 2, 
+    "line_styles": [
+        "-", 
+        "--", 
+        "-", 
+        "--"
+    ], 
+    "markers": [
+        "."
+    ], 
+    "x_errors": [
+        false
+    ], 
+    "y_errors": [
+        false
+    ]
+}

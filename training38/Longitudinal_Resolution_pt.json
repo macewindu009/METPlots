@@ -1,0 +1,33 @@
+{
+    "weights": [
+        "(select)&&nCombinations==1"
+    ], 
+    "legend_cols" : 3,
+    "filename": "Longitudinal_Resolution_pt", 
+    "x_bins": [
+        "10,0,150"
+    ], 
+    "x_expressions": [
+        "Boson_Pt"
+    ], 
+    "x_label": "$p_T^Z$", 
+    "y_bins": [
+        "50,-100,100"
+    ], 
+    "y_expressions": [
+        "recoilpatpfMETT1_LongZ+Boson_Pt",
+        "recoilpatpfMETT1_LongZ+Boson_Pt",
+        "recoilpatpfTrackMET_LongZ+Boson_Pt",
+        "recoilpatpfTrackMET_LongZ+Boson_Pt",
+        "recoilpatpfNoPUMET_LongZ+Boson_Pt",
+        "recoilpatpfNoPUMET_LongZ+Boson_Pt",
+        "recoilpatpfPUMET_LongZ+Boson_Pt",
+        "recoilpatpfPUMET_LongZ+Boson_Pt",
+        "recoilslimmedMETsPuppi_LongZ+Boson_Pt",
+        "recoilslimmedMETsPuppi_LongZ+Boson_Pt",
+        "recoilpatpfPUCorrectedMET_LongZ+Boson_Pt",
+        "recoilpatpfPUCorrectedMET_LongZ+Boson_Pt"
+    ], 
+    "y_label": "$U_{\\parallel} $ Resolution [GeV]",
+	"y_lims" : [0, 50]
+}

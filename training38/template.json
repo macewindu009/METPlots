@@ -1,0 +1,48 @@
+{
+    "colors" : [
+         "black", 
+         "black", 
+         "red", 
+         "red", 
+         "blue", 
+         "blue", 
+         "orange", 
+         "orange", 
+         "green",
+         "green",
+         "purple", 
+         "purple"
+    ],
+    "files": [
+        "MVAnew.root", "MVAold.root"
+    ], 
+    "folders": [
+        "t"
+    ], 
+    "labels": [
+        "PF new", "PF old",
+        "Track new", "Track old",
+        "NoPU new", "NoPU old", 
+        "PU new", "PU old",
+        "PUPPI new", "PUPPI old",
+        "PU Corr new", "PU Corr old"
+    ], 
+    "nicks" : ["nick1", "nick2", "nick3", "nick4", "nick5", "nick6", "nick7", "nick8", "nick9", "nick10", "nick11", "nick12" ],
+    "line_styles": [
+        "-", "--",
+        "-", "--",
+        "-", "--",
+        "-", "--",
+        "-", "--",
+        "-", "--"
+    ], 
+    "markers": [
+        "."
+    ], 
+    "x_errors": [
+        false
+    ], 
+    "y_errors": [
+        false
+    ]
+}
