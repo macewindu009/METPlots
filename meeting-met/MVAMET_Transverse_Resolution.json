@@ -1,0 +1,17 @@
+{
+    "y_expressions": [
+        "recoilslimmedMETs_PerpZ", 
+        "particleFlowUpdate_Uperp", 
+        "LongZCorrectedRecoil_PerpZ", 
+        "RecoilCor_Uperp", 
+        "recoilslimmedMETsPuppi_PerpZ"
+    ], 
+    "y_label": "$U_{\\perp}/p_T^Z$", 
+    "y_bins": [
+        "50,-100,100"
+    ], 
+    "y_lims": [
+        0, 
+        30.0
+    ]
+}

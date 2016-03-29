@@ -1,0 +1,17 @@
+{
+    "y_expressions": [
+        "recoilslimmedMETs_LongZ+Boson_Pt", 
+        "particleFlowUpdate_Upar+z_pT", 
+        "LongZCorrectedRecoil_LongZ+Boson_Pt", 
+        "RecoilCor_Upar+z_pT", 
+        "recoilslimmedMETsPuppi_LongZ+Boson_Pt"
+    ], 
+    "y_label": "$U_{\\parallel}/p_T^Z$", 
+    "y_bins": [
+        "50,-100,100"
+    ], 
+    "y_lims": [
+        0, 
+        30.0
+    ]
+}

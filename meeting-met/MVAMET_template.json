@@ -1,0 +1,49 @@
+{
+    "colors": [
+        "black", 
+        "black", 
+        "goldenrod", 
+        "goldenrod", 
+        "green"
+    ], 
+    "files": [
+        "MVAnew.root", 
+        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/mvaTrainingSample.root"
+    ], 
+    "folders": [
+        "t", 
+        "Flat"
+    ], 
+    "friend_filenames": [
+        "", 
+        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/particleFlowUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/trackUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/noPileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpCorrectedUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/RecoilCor.root"
+    ], 
+    "friend_treenames": [
+        "", 
+        "particleFlowUpdate trackUpdate noPileUpUpdate pileUpCorrectedUpdate pileUpUpdate RecoilCor"
+    ], 
+    "labels": [
+        "PF", 
+        "PF old", 
+        "MVA", 
+        "MVA old", 
+        "Puppi"
+    ], 
+    "legend_cols": 3, 
+    "line_styles": [
+        "-", 
+        "--", 
+        "-", 
+        "--", 
+        "-"
+    ], 
+    "markers": [
+        "."
+    ], 
+    "x_errors": [
+        false
+    ], 
+    "y_errors": [
+        false
+    ]
+}

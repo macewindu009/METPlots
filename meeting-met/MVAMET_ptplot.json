@@ -1,0 +1,13 @@
+{
+    "x_bins": [
+        "15,0,150"
+    ], 
+    "x_expressions": [
+        "Boson_Pt", 
+        "z_pT"
+    ], 
+    "x_label": "$p_T^Z$",
+    "weights": [
+        "1"
+    ] 
+}
