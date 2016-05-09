@@ -1,0 +1,47 @@
+{
+    "colors": [
+        "tomato", 
+        "silver", 
+        "goldenrod"
+    ], 
+    "files": [
+        "/nfs/dust/cms/user/rfriese/htautau/artus/2016-02-19_02-45_analysis/merged/DYJetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/DYJetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8.root"
+    ], 
+    "folders": [
+        "mtmvametold_jecUncNom_tauEsNom/ntuple", 
+        "mtMVAMET_abshighptnoTauSig_jecUncNom_tauEsNom/ntuple", 
+        "mtMVAMET_abshighpt_jecUncNom_tauEsNom/ntuple"
+    ], 
+    "labels": [
+        "old MVAMET", 
+        "new MVAMET w/o $\\tau$ contribution", 
+        "new MVAMET"
+    ], 
+    "line_styles": [
+        "-", 
+        "-", 
+        "-"
+    ], 
+    "markers": [
+        ""
+    ], 
+    "step": [
+        true
+    ], 
+    "weights": [
+        "(gen_match_2 == 5)*((decayMode_2<5)||(decayMode_2>6))*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(dilepton_veto < 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(againstMuonTight3_2 > 0.5)*(byMediumCombinedIsolationDeltaBetaCorr3Hits_2 > 0.5)*(iso_1 < 0.1)*((q_1*q_2)<0.0)"
+    ], 
+    "x_bins": [
+        "50,0,1"
+    ], 
+    "x_errors": false, 
+    "x_expressions": [
+        "probChiSquare"
+    ], 
+    "x_label": "$prob(\\chi^2)$", 
+    "y_errors": false, 
+    "y_lims": [
+        0.0, 
+        2100.0
+    ]
+}

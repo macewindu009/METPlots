@@ -1,0 +1,38 @@
+{
+    "colors": [
+        "goldenrod", 
+        "tomato"
+    ], 
+    "files": [
+        "/afs/desy.de/user/r/rfriese/analysis/MVAMETPlus.root", 
+        "/afs/desy.de/user/r/rfriese/analysis/MVAMETNoSig.root"
+    ], 
+    "folders": [
+        "mt/ntuple"
+    ], 
+    "labels": [
+        "MVAMET", 
+        "MVAMET w/o lepton contribution"
+    ], 
+    "line_styles": [
+        "-"
+    ], 
+    "markers": [
+        ""
+    ], 
+    "step": [
+        true
+    ], 
+    "weights": [
+        "1"
+    ], 
+    "x_bins": [
+        "50,0,1"
+    ], 
+    "x_errors": false, 
+    "x_expressions": [
+        "probChiSquare"
+    ], 
+    "x_label": "$prob(\\chi^2)$", 
+    "y_errors": false
+}

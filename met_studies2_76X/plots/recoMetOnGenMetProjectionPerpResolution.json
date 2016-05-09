@@ -1,0 +1,68 @@
+{
+    "analysis_modules": [
+        "ProjectByFit"
+    ], 
+    "colors": [
+        "black", 
+        "goldenrod"
+    ], 
+    "filename": "recoMetOnGenMetProjectionPerpResolution", 
+    "files": [
+        "/afs/desy.de/user/r/rfriese/analysis/PFMET.root", 
+        "/afs/desy.de/user/r/rfriese/analysis/MVAMET.root"
+    ], 
+    "fit_backend": [
+        "ROOT"
+    ], 
+    "folders": [
+        "mt/ntuple"
+    ], 
+    "grid": true, 
+    "labels": [
+        "PFMET", 
+        "MVAMET"
+    ], 
+    "line_styles": [
+        "-"
+    ], 
+    "markers": [
+        "."
+    ], 
+    "projection_function": [
+        "gaus"
+    ], 
+    "projection_parameters": [
+        "1000,10,10"
+    ], 
+    "projection_to_nick": [
+        "nick0", 
+        "nick1"
+    ], 
+    "projection_to_plot": [
+        "2"
+    ], 
+    "step": [
+        false
+    ], 
+    "weights": [
+        "1"
+    ], 
+    "x_bins": "8,0,80", 
+    "x_errors": false, 
+    "x_expressions": [
+        "1genBosonPt"
+    ], 
+    "x_label": "$Boson \\, Boost \\, / \\, \\mathrm{GeV}$", 
+    "y_bins": [
+        "49,-80,80"
+    ], 
+    "y_errors": false, 
+    "y_expressions": [
+        "recoMetOnGenMetProjectionPerp"
+    ], 
+    "y_label": "$\\sigma(MET_{\\perp})$", 
+    "y_lims": [
+        0.0, 
+        30.0
+    ]
+}

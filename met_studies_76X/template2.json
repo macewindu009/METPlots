@@ -1,0 +1,23 @@
+{
+    "files": [ "/nfs/dust/cms/user/rfriese/htautau/artus/2016-02-19_02-45_analysis/merged/DYJetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/DYJetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8.root" 
+    ], 
+    "folders": [
+        "mtmvametold_jecUncNom_tauEsNom/ntuple", 
+        "mtMVAMET_abshighpt_jecUncNom_tauEsNom/ntuple"
+    ], 
+    "labels": [
+        "old MVAMET", 
+        "abshighpt",
+    ], 
+    "line_styles": [
+        "-"
+    ], 
+    "markers": [
+        "."
+    ], 
+    "weights": [
+        "(gen_match_2 == 5)*((decayMode_2<5)||(decayMode_2>6))*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(dilepton_veto < 0.5)*(againstElectronVLooseMVA6_2 > 0.5)*(againstMuonTight3_2 > 0.5)*(byMediumCombinedIsolationDeltaBetaCorr3Hits_2 > 0.5)*(iso_1 < 0.1)*((q_1*q_2)<0.0)"
+    ],
+    "x_errors" : false,
+    "y_errors" : false
+}

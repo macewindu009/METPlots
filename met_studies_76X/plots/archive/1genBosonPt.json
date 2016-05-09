@@ -1,0 +1,18 @@
+{
+    "files": [
+        "/nfs/dust/cms/user/rfriese/htautau/artus/2016-02-18_11-24_analysis/merged/DYJetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/DYJetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8.root"
+    ], 
+    "folders": [
+        "mtpfmet_jecUncNom_tauEsNom/ntuple"
+    ], 
+    "labels": [
+        ""
+    ], 
+    "x_bins": [
+        "100,0,200"
+    ], 
+    "x_expressions": [
+        "1genBosonPt"
+    ], 
+    "x_label": "Generator Boson $p_T / \\, \\mathrm{[GeV]}$"
+}
