@@ -1,60 +1,40 @@
 {
     "colors": [
         "black", 
-        "black", 
         "goldenrod", 
-        "goldenrod", 
-        "orange", 
         "green"
     ], 
+    "grid" : true,
     "files": [
         "DY.root", 
-        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/mvaTrainingSample.root", 
-        "DY.root", 
-        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/mvaTrainingSample.root", 
         "LongZCorrectedRecoilHighpt.root", 
         "DY.root"
     ], 
     "folders": [
         "MAPAnalyzer/t", 
-        "Flat", 
-        "MAPAnalyzer/t", 
-        "Flat", 
         "t", 
         "MAPAnalyzer/t"
     ], 
     "friend_filenames": [
         "LongZCorrectedRecoil.root", 
-        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/particleFlowUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/trackUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/noPileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpCorrectedUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/RecoilCor.root", 
-        "LongZCorrectedRecoil.root", 
-        "/afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/particleFlowUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/trackUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/noPileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpCorrectedUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/pileUpUpdate.root /afs/desy.de/user/r/rfriese//dust/mvamet/data4/mvaTrainingSample-DYSpring15-v2/RecoilCor.root", 
         "", 
         "LongZCorrectedRecoil.root"
     ], 
     "friend_treenames": [
         "LongZCorrectedRecoil", 
-        "particleFlowUpdate trackUpdate noPileUpUpdate pileUpCorrectedUpdate pileUpUpdate RecoilCor", 
-        "LongZCorrectedRecoil", 
-        "particleFlowUpdate trackUpdate noPileUpUpdate pileUpCorrectedUpdate pileUpUpdate RecoilCor", 
         "", 
         "LongZCorrectedRecoil"
     ], 
     "labels": [
         "PF", 
-        "PF old", 
         "MVA", 
-        "MVA old", 
-        "MVA high-pt", 
         "Puppi"
     ], 
-    "legend_cols": 2, 
+    "legend_cols": 1, 
     "line_styles": [
         "-", 
-        "--", 
         "-", 
-        "--", 
-        "-", 
-        "-"
+        "--"
     ], 
     "markers": [
         "."

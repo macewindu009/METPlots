@@ -1,9 +1,6 @@
 {
     "y_expressions": [
         "recoilslimmedMETs_PerpZ", 
-        "particleFlowUpdate_Uperp", 
-        "LongZCorrectedRecoil_PerpZ", 
-        "RecoilCor_Uperp", 
         "LongZCorrectedRecoil_PerpZ", 
         "recoilslimmedMETsPuppi_PerpZ"
     ], 
