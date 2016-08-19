@@ -82,7 +82,7 @@
         "ttj", 
         "vv"
     ], 
-    "output_dir": "/afs/desy.de/user/r/rfriese/dust/thesis-plots/METPlots/thesis-data/", 
+    "output_dir": "/afs/desy.de/user/r/rfriese/dust/thesis-plots/METPlots/thesis-data/mm/", 
     "ratio_denominator_nicks": [
         "zll ttj vv", 
         "zll ttj vv"
