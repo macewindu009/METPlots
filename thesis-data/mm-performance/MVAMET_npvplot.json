@@ -7,9 +7,6 @@
     ], 
     "x_label": "nPV",
     "weights": [
-        "(ptvis>30)*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)/sampleStitchingWeight", 
-        "(ptvis>30)*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)", 
-        "(ptvis>30)*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)", 
         "(ptvis>30)*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)"
     ],
     "texts" : "with $p_T^Z > 30 \\mathrm{GeV}$",

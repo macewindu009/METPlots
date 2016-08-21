@@ -1,0 +1,45 @@
+{
+    "category": null, 
+    "colors": [
+        "goldenrod"
+    ], 
+    "directories": [
+        "/nfs/dust/cms/user/rfriese/htautau/artus/2016-08-19_17-54_Metstudies/output/"
+    ], 
+    "energies": [
+        13
+    ], 
+    "files": [
+        "DYJetsToLLM150_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DY2JetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DY4JetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DYJetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DY1JetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DY3JetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DYJetsToLLM10to50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_amcatnlo-pythia8/*.root"
+    ], 
+    "folders": [
+        "mm_jecUncNom/ntuple"
+    ], 
+    "labels": [
+        "Z #rightarrow #mu #mu"
+    ], 
+    "lumis": [
+        2.3
+    ], 
+    "markers": [
+        ""
+    ], 
+    "nicks": [
+        "zll"
+    ], 
+    "output_dir": "/afs/desy.de/user/r/rfriese/dust/thesis-plots/METPlots/thesis-data/mm/", 
+    "scale_factors": [
+        2301.0
+    ], 
+    "title": "$Z \\rightarrow \\mu \\mu$", 
+    "weights": [
+        "eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)"
+    ], 
+    "x_bins": [
+        "100,0,1"
+    ], 
+    "x_expressions": [
+        "probChiSquare"
+    ], 
+    "x_label": "$prob(\\chi^2)$"
+}

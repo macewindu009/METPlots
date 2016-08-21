@@ -1,17 +1,24 @@
 {
-    "grid" : true,
-    "colors": [
-        "goldenrod", 
-        "goldenrod", 
-        "black", 
-        "black"
+    "analysis_modules": [
+        "Ratio"
     ], 
+    "category": null, 
+    "colors": [
+        "kYellow-3", 
+        "kYellow-3", 
+        "kBlue-3", 
+        "kBlue-3", 
+        "kYellow-3", 
+        "kBlue-3"
+    ], 
+    "comment": "/afs/desy.de/user/r/rfriese/xxl/analysis/CMSSW_7_1_5/bin/slc6_amd64_gcc481/makePlots_controlPlots.py -i /nfs/dust/cms/user/rfriese/htautau/artus/2016-08-05_17-00_metstudy/merged/ -c mm -x mvamet -o /afs/desy.de/user/r/rfriese/dust/thesis-plots/METPlots/thesis-data/ --era 2015new -s zll ttj vv data -a --y-log true --x-bins 100,0,300 --y-lims 0.1 10e6 --y-subplot-lims 0 2 --ratio", 
     "directories": [
         "/nfs/dust/cms/user/rfriese/htautau/artus/2016-08-19_17-54_Metstudies/output/"
     ], 
     "energies": [
         13
     ], 
+    "filename": "recoil_perp", 
     "files": [
         "DYJetsToLLM150_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DY2JetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DY4JetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DYJetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DY1JetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DY3JetsToLLM50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_madgraph-pythia8/*.root DYJetsToLLM10to50_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_amcatnlo-pythia8/*.root", 
         "TT_RunIIFall15MiniAODv2_PU25nsData2015v1_13TeV_MINIAOD_powheg-pythia8/*.root", 
@@ -32,23 +39,35 @@
         "MVA (sim.)", 
         "MVA (data)", 
         "PF (sim.)", 
-        "PF (data)"
-    ], 
-    "legend_cols": 2, 
-    "line_styles": [
-        "-", 
+        "PF (data)", 
         "", 
-        "-", 
         ""
+    ], 
+    "legend": [
+        0.23, 
+        0.6, 
+        0.9, 
+        0.83
+    ], 
+    "legend_cols": 4, 
+    "legend_markers": [
+        "L", 
+        "ELP", 
+        "L", 
+        "ELP", 
+        "F", 
+        "F"
     ], 
     "lumis": [
         2.3
     ], 
     "markers": [
-        "", 
-        ".", 
-        "", 
-        "."
+        "LINE", 
+        "E", 
+        "LINE", 
+        "E", 
+        "E", 
+        "E"
     ], 
     "nicks": [
         "mva_mc", 
@@ -63,18 +82,47 @@
     "nicks_blacklist": [
         "noplot"
     ], 
-    "output_dir": "/afs/desy.de/user/r/rfriese/dust/thesis-plots/METPlots/thesis-data/mm-performance/plots/", 
+    "output_dir": "/afs/desy.de/user/r/rfriese/dust/thesis-plots/METPlots/thesis-data/mm/", 
+    "ratio_denominator_nicks": [
+        "mva_mc", 
+        "pf_mc"
+    ], 
+    "ratio_numerator_nicks": [
+        "mva_data", 
+        "pf_data"
+    ], 
+    "ratio_result_nicks": [
+        "mva_ratio", 
+        "pf_ratio"
+    ], 
     "scale_factors": [
         2301.0, 
         2301.0, 
         2301.0, 
         1.0
     ], 
-    "step": true, 
-    "title": "$Z \\rightarrow \\mu \\mu$", 
-    "x_errors": [
-        false
+    "title": "channel_mm", 
+    "weights": [
+        "eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)"
     ], 
-    "y_errors": 
-        [false, true, false, true]
+    "x_bins": [
+        "50,-100,100"
+    ], 
+    "x_expressions": [
+        "recoMetPerp"
+    ], 
+    "x_label": "mm_mvamet", 
+    "y_lims": [
+        0.0, 
+        300000.0
+    ], 
+    "y_log": false, 
+    "y_rel_lims": [
+        0.5, 
+        10.0
+    ], 
+    "y_subplot_lims": [
+        0.5, 
+        1.5
+    ]
 }
