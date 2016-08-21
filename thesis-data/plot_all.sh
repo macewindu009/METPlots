@@ -1,5 +1,9 @@
-higgsplot.py -j mm/mvamet.json
-higgsplot.py -j mm/pfmet.json
-higgsplot.py -j mm/bothmets.json
-bash mm-performances/makeplots.sh
-bash ../thesis/makeplots.sh
+cd mm-control
+higgsplot.py -j mvamet.json
+higgsplot.py -j pfmet.json
+harry.py -j bothmets.json
+harry.py -j probChiSquare.json
+cd ../mm-performance
+bash makeplots.sh
+cd ../training
+bash makeplots.sh
