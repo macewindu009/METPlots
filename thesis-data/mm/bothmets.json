@@ -4,12 +4,12 @@
     ], 
     "category": null, 
     "colors": [
-        "kYellow-3", 
-        "kYellow-3", 
-        "kBlue-3", 
-        "kBlue-3", 
-        "kYellow-3", 
-        "kBlue-3"
+        "goldenrod", 
+        "goldenrod", 
+        "black", 
+        "black", 
+        "goldenrod", 
+        "black"
     ], 
     "comment": "/afs/desy.de/user/r/rfriese/xxl/analysis/CMSSW_7_1_5/bin/slc6_amd64_gcc481/makePlots_controlPlots.py -i /nfs/dust/cms/user/rfriese/htautau/artus/2016-08-05_17-00_metstudy/merged/ -c mm -x mvamet -o /afs/desy.de/user/r/rfriese/dust/thesis-plots/METPlots/thesis-data/ --era 2015new -s zll ttj vv data -a --y-log true --x-bins 100,0,300 --y-lims 0.1 10e6 --y-subplot-lims 0 2 --ratio", 
     "directories": [
@@ -47,31 +47,25 @@
         "", 
         ""
     ], 
-    "legend": [
-        0.53, 
-        0.4, 
-        0.9, 
-        0.83
-    ], 
     "legend_cols": 2, 
-    "legend_markers": [
-        "L", 
-        "ELP", 
-        "L", 
-        "ELP", 
-        "F", 
-        "F"
+    "line_styles": [
+        "-", 
+        "", 
+        "-", 
+        "", 
+        "", 
+        ""
     ], 
     "lumis": [
         2.3
     ], 
     "markers": [
-        "LINE", 
-        "E", 
-        "LINE", 
-        "E", 
-        "E", 
-        "E"
+        "", 
+        ".", 
+        "", 
+        ".", 
+        ".", 
+        "."
     ], 
     "nicks": [
         "mva_mc", 
@@ -105,7 +99,8 @@
         2301.0, 
         1.0
     ], 
-    "title": "channel_mm", 
+    "step": true, 
+    "title": "$Z \\rightarrow \\mu \\mu$", 
     "weights": [
         "eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)/sampleStitchingWeight", 
         "eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)", 
@@ -115,21 +110,27 @@
     "x_bins": [
         "50,0,300"
     ], 
+    "x_errors": false, 
     "x_expressions": [
         "mvamet"
     ], 
-    "x_label": "mm_mvamet", 
+    "x_label": "$E_T$", 
+    "y_errors": [
+        false, 
+        true, 
+        false, 
+        true, 
+        true, 
+        true
+    ], 
     "y_lims": [
         0.1, 
         10000000.0
     ], 
     "y_log": true, 
-    "y_rel_lims": [
-        0.5, 
-        10.0
-    ], 
+    "y_subplot_label": "Observed / Expected", 
     "y_subplot_lims": [
-        0.5, 
-        1.5
+        0.0, 
+        2.0
     ]
 }
