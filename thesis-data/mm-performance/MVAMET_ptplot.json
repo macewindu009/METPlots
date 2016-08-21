@@ -1,0 +1,15 @@
+{
+    "x_bins": [
+        "5 15 25 35 45 55 65 75 85 95 105 125 145 165 205"
+    ], 
+    "x_expressions": [
+        "ptvis"
+    ], 
+    "weights": [
+        "eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)/sampleStitchingWeight", 
+        "eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)", 
+        "eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)", 
+        "eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(m_vis > 80.0)*(m_vis < 100.0)*(iso_2 < 0.15)*(iso_1 < 0.15)*((q_1*q_2)<0.0)"
+    ],
+    "x_label": "$p_T^Z$"
+}
