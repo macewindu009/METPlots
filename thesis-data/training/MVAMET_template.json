@@ -32,8 +32,8 @@
     ], 
     "legend_cols": 1, 
     "line_styles": [
-        "-", 
-        "-", 
+        "--", 
+        "--", 
         "--"
     ], 
     "markers": [
