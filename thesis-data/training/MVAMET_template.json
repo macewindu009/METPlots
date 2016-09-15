@@ -26,9 +26,9 @@
         "LongZCorrectedRecoil"
     ], 
     "labels": [
-        "PF", 
+        "PF T1", 
         "MVA", 
-        "Puppi"
+        "PUPPI T1"
     ], 
     "legend_cols": 1, 
     "line_styles": [

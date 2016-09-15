@@ -22,13 +22,13 @@
         "LongZCorrectedRecoil"
     ], 
     "labels": [
-        "PF T1-corrected", 
+        "PF T1", 
         "PF", 
         "PU Corrected",
         "No PU",
         "Track", 
         "PU",
-        "Puppi"
+        "PUPPI T1"
     ], 
     "legend_cols": 2, 
     "line_styles": [

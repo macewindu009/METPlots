@@ -8,9 +8,9 @@
         "recoilpatpfPUMET_LongZ", 
         "recoilslimmedMETsPuppi_LongZ+Boson_Pt"
     ], 
-    "y_label": "$U_{\\parallel}/p_T^Z$", 
+    "y_label": "$< U_{\\parallel}-p_T^Z >$", 
     "y_bins": [
-        "50,-100,100"
+        "90,-150,150"
     ], 
     "y_lims": [
         0, 
