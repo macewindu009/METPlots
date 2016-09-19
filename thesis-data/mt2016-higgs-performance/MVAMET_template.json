@@ -1,0 +1,58 @@
+{
+    "grid" : true,
+    "colors": [
+        "goldenrod", 
+        "orange", 
+        "black",
+		"darkblue"
+    ], 
+    "directories": [
+        "/nfs/dust/cms/user/rfriese/htautau/artus/2016-09-15_22-09_PfMetCov/merged-full/"
+    ], 
+    "energies": [
+        13
+    ], 
+    "files": [
+        "VBFHToTauTauM125_RunIISpring16MiniAODv2reHLT_PUSpring16RAWAODSIM_13TeV_MINIAOD_powheg-pythia8/*.root", 
+        "GluGluHToTauTauM125_RunIISpring16MiniAODv2reHLT_PUSpring16RAWAODSIM_13TeV_MINIAOD_powheg-pythia8/*.root"
+    ], 
+    "folders": [
+        "mt_jecUncNom/ntuple"
+    ], 
+    "labels": [
+        "MVA (qqH)", 
+        "MVA (ggH)", 
+        "PF (qqH)",
+        "PF (ggH)"
+    ], 
+    "legend_cols": 2, 
+    "line_styles": [
+        "-", "--", "-", "--"
+    ], 
+    "lumis": [
+        12.9
+    ], 
+    "markers": [
+        ""
+    ], 
+    "nicks": [
+        "mva_qqh", 
+        "mva_ggh", 
+        "pf_qqh",
+        "pf_ggh"
+    ], 
+    "nicks_blacklist": [
+        "noplot"
+    ], 
+    "output_dir": "/afs/desy.de/user/r/rfriese/plots/2016-09-02-MVAMET-thesis/METPlots/thesis-data/mt2016-higgs-performance/plots",
+    "scale_factors": [
+        12900.0
+    ], 
+    "step": true, 
+    "title": "$H \\rightarrow \\tau \\tau \\rightarrow \\ \\mu \\tau_{had}$", 
+    "x_errors": [
+        [false ]
+    ], 
+    "y_errors": 
+        [false]
+}
